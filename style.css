@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Hack", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 0 0 16px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+main {
+    margin-left: 15vw; /* Same as the width of the sidenav */
+}
+
+.page{
+    /*
+    min-height: 100vh;
+    */
+    border: #111111 2px groove;
+    color: gray;
+}
+
+.authors a{
+    display: block;
+}
+
+.dealer-header{
+    padding:20px;
+    color: white;
+    background-color: #6c757d;
+}
+
+.dealer-footer{
+    color: white;
+    background-color: #6c757d;
+}
+.dealer-address span{
+    display: block;
+}
+.dealer-information{
+    border: 1px black;
+    float: right;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dealer-information tr, td{
+    border: 0;
+    padding: 0;
+}
+.dealer-information tr:nth-child(even), .dealer-information tr >th, .car-information tr:nth-child(even), .car-information tr>th{
+    background-color: rgba(255,255,255,0.5);
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

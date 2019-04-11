@@ -1,0 +1,96 @@
+<!ELEMENT Garages (Garage+)>
+
+        <!--Hier worden de entiteiten van de garage aangemaakt -->
+        <!ENTITY % dagen "(Maandag, Dinsdag, Woensdag, Donderdag, Vrijdag, Zaterdag, Zondag)">
+        <!ENTITY % valuta "(euro|dollar)">
+
+        <!-- Dit valideerd de gegevens die voor een garage opgeslagen kunnen worden. -->
+        <!ELEMENT Garage (Naam, Adres, Telefoonnummer , Email, Fotos,Omschrijving?,Website?,
+                Routebeschrijving?,AangeslotenOrganizaties?,VkOpeningstijden,WPOpeningstijden,
+                Services? ,Automerken?,Faciliteiten?,Autos?,Werkzaamheden?,Medewerkers)>
+        <!ELEMENT Naam (#PCDATA)>
+        <!ELEMENT Adres (Straat, Huisnummer , Postcode , Plaats , Provincie)>
+        <!ELEMENT Telefoonnummer (#PCDATA)>
+        <!ELEMENT Email                (#PCDATA)>
+        <!ELEMENT Fotos (Foto*)>
+        <!ELEMENT Foto                 (#PCDATA)>
+        <!ELEMENT Omschrijving         (#PCDATA)>
+        <!ELEMENT Website              (#PCDATA)>
+        <!ELEMENT Routebeschrijving    (#PCDATA)>
+        <!ELEMENT AangeslotenOrganizaties (Organizatie+)>
+        <!ELEMENT Organizatie (#PCDATA)>
+        <!ATTLIST Organizatie naam CDATA #REQUIRED>
+
+        <!-- Dit valideert de adressen-->
+        <!ELEMENT Straat (#PCDATA)>
+        <!ELEMENT Huisnummer (#PCDATA)>
+        <!ELEMENT Postcode (#PCDATA)>
+        <!ELEMENT Plaats (#PCDATA)>
+        <!ELEMENT Provincie (#PCDATA)>
+
+        <!-- Dit valideerd de openings tijden van de werkplaats en verkoop -->
+        <!ELEMENT WPOpeningstijden %dagen;>
+        <!ATTLIST WPOpeningstijden format CDATA #REQUIRED>
+        <!ELEMENT VkOpeningstijden %dagen;>
+        <!ATTLIST VkOpeningstijden format CDATA #REQUIRED>
+        <!ELEMENT Maandag   (#PCDATA)>
+        <!ELEMENT Dinsdag   (#PCDATA)>
+        <!ELEMENT Woensdag  (#PCDATA)>
+        <!ELEMENT Donderdag (#PCDATA)>
+        <!ELEMENT Vrijdag   (#PCDATA)>
+        <!ELEMENT Zaterdag  (#PCDATA)>
+        <!ELEMENT Zondag    (#PCDATA)>
+
+        <!-- Dit valideert de de beschibaare auto merken. -->
+        <!ELEMENT Automerken (Automerk+)>
+        <!ELEMENT Automerk  (#PCDATA)>
+
+        <!-- Dit valideert de medewerkers. -->
+        <!ELEMENT   Medewerkers (Medewerker+)>
+        <!ELEMENT   Medewerker  (Naam, Foto , Functie)>
+        <!ELEMENT   Functie     (#PCDATA)>
+
+        <!-- Dit valideerd de werkzaamheden. -->
+        <!ELEMENT   Werkzaamheden   (Werkzaamheid+)>
+        <!ELEMENT   Werkzaamheid (#PCDATA)>
+
+        <!-- Dit valideerd de Services -->
+        <!ELEMENT   Services (Service+)>
+        <!ELEMENT   Service (#PCDATA)>
+
+        <!-- Dit valideerd de gegevens van auto's  -->
+        <!ELEMENT Autos (Auto+)>
+        <!ELEMENT Auto (Kenteken, Automerk, Type, Bouwjaar, Brandstof, Prijs, DatumAPK, Fotos)>
+        <!ELEMENT Kenteken (#PCDATA)>
+        <!ELEMENT Type (#PCDATA)>
+        <!ELEMENT Bouwjaar (#PCDATA)>
+        <!ATTLIST Bouwjaar format CDATA #REQUIRED>
+        <!ELEMENT Brandstoffen (Benzine?, Gas?, Diesel?)?>
+        <!ELEMENT Brandstof (Benzine|Gas|Diesel)>
+
+        <!ELEMENT Benzine (#PCDATA)>
+        <!ELEMENT Gas (#PCDATA)>
+        <!ELEMENT Diesel (#PCDATA)>
+
+        <!ELEMENT Prijs         (#PCDATA)>
+        <!ATTLIST Prijs valuta %valuta; #REQUIRED>
+
+        <!-- Dit vaideerd the datam tot waar de APK gedig is. -->
+        <!ELEMENT DatumAPK      (Jaar, Maand, Dag)>
+        <!ELEMENT Jaar (#PCDATA)>
+        <!ELEMENT Maand (#PCDATA)>
+        <!ELEMENT Dag (#PCDATA)>
+
+        <!-- Dit valideerd de beschibare facilieiten. -->
+        <!ELEMENT Faciliteiten  (Pompen?,Wasbox?,Wasstraat?,Winkel?)>
+        <!ELEMENT Pompen (Pomp*)>
+        <!ELEMENT Pomp (Brandstoffen)>
+        <!ELEMENT Wasbox    EMPTY>
+        <!ELEMENT Wasstraat EMPTY>
+
+        <!-- Dit valideerd de gegevens van een winkel. -->
+        <!ELEMENT Winkel (Producten*)>
+        <!ELEMENT Producten (Product+)>
+        <!ELEMENT Product (#PCDATA)>
+
+

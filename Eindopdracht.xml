@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Garages SYSTEM "eindopdracht.dtd">
+<Garages>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Angelslo's auto's</Naam>
+        <Adres>
+            <Straat>Hoofdstraat</Straat>
+            <Huisnummer>25</Huisnummer>
+            <Postcode>7821 AS</Postcode>
+            <Plaats>Emmen</Plaats>
+            <Provincie>Drenthe</Provincie>
+        </Adres>
+        <Telefoonnummer>06-12345678</Telefoonnummer>
+        <Email>autos-angelslo@hotmail.com</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij verkopen nieuwe en tweedehands auto's</Omschrijving>
+        <Website>www.angelslo-autos.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vJ9j4VVUofS2</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganizaties>
+            <Organizatie naam="BOVAG"/>
+            <Organizatie naam="RDW"/>
+        </AangeslotenOrganizaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:00</Maandag>
+            <Dinsdag>08:00 - 17:00</Dinsdag>
+            <Woensdag>08:00 - 17:00</Woensdag>
+            <Donderdag>08:00 - 20:00</Donderdag>
+            <Vrijdag>08:00 - 17:00</Vrijdag>
+            <Zaterdag>08:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 17:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 18:00</Maandag>
+            <Dinsdag>08:00 - 18:00</Dinsdag>
+            <Woensdag>08:00 - 18:00</Woensdag>
+            <Donderdag>08:00 - 21:00</Donderdag>
+            <Vrijdag>08:00 - 18:00</Vrijdag>
+            <Zaterdag>08:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 17:00</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+            <Service>lenen</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Ford</Automerk>
+            <Automerk>Kia</Automerk>
+            <Automerk>Mercedes</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+            <Pompen>
+                <Pomp>
+                    <Brandstoffen>
+                        <Benzine />
+                        <Gas />
+                        <Diesel />
+                    </Brandstoffen>
+                </Pomp>
+            </Pompen>
+            <Wasbox/>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>98-RR-XX</Kenteken>
+                <Automerk>Mazda</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">2005</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">10000</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>BandenService</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Jos Harmsen</Naam>
+                <Foto>jos.jpg</Foto>
+                <Functie>Pompbediende</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Gerard Provrex</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+</Garages>
