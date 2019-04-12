@@ -62,23 +62,12 @@
         </Automerken>
 
         <!-- Dit zijn de facaliteiten die de garage aanbied -->
-        <Faciliteiten>
-            <Pompen>
-                <Pomp>
-                    <Brandstoffen>
-                        <Benzine/>
-                        <Gas/>
-                        <Diesel/>
-                    </Brandstoffen>
-                </Pomp>
-            </Pompen>
-            <Wasbox/>
-        </Faciliteiten>
+
 
         <!-- Dit zijn de auto's die de garage verkoopt -->
         <Autos>
             <Auto>
-                <Kenteken>98-RR-76</Kenteken>
+                <Kenteken>99-99-XX</Kenteken>
                 <Automerk>Mazda</Automerk>
                 <Type>Cabrio</Type>
                 <Bouwjaar format="yyyy">2005</Bouwjaar>
@@ -524,7 +513,7 @@
             <Auto>
                 <Kenteken>50-GT-61</Kenteken>
                 <Automerk>Volvo</Automerk>
-                <Type>Hatchack</Type>
+                <Type>Hatchback</Type>
                 <Bouwjaar format="yyyy">2015</Bouwjaar>
                 <Brandstof>
                     <Benzine/>
@@ -892,7 +881,7 @@
             <Auto>
                 <Kenteken>73-UN-01</Kenteken>
                 <Automerk>Skoda</Automerk>
-                <Type>Hatchack</Type>
+                <Type>Hatchback</Type>
                 <Bouwjaar format="yyyy">2006</Bouwjaar>
                 <Brandstof>
                     <Benzine/>
@@ -1209,15 +1198,14 @@
         </Automerken>
 
         <!-- Dit zijn de facaliteiten die de garage aanbied -->
-        <Faciliteiten>
-        </Faciliteiten>
+
 
         <!-- Dit zijn de auto's die de garage verkoopt -->
         <Autos>
             <Auto>
                 <Kenteken>67-ES-44</Kenteken>
                 <Automerk>Mercedes</Automerk>
-                <Type>Hatchack</Type>
+                <Type>Hatchback</Type>
                 <Bouwjaar format="yyyy">1990</Bouwjaar>
                 <Brandstof>
                     <Gas/>
