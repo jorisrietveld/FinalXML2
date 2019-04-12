@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Garages SYSTEM "eindopdracht.dtd">
+<!DOCTYPE Garages SYSTEM "Eindopdracht.dtd">
 <Garages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Eindopdracht.xsd">
     <Garage>
         <!-- Dit zijn de gegevens van de garage -->
@@ -66,9 +66,9 @@
             <Pompen>
                 <Pomp>
                     <Brandstoffen>
-                        <Benzine />
-                        <Gas />
-                        <Diesel />
+                        <Benzine/>
+                        <Gas/>
+                        <Diesel/>
                     </Brandstoffen>
                 </Pomp>
             </Pompen>
@@ -83,7 +83,7 @@
                 <Type>Cabrio</Type>
                 <Bouwjaar format="yyyy">2005</Bouwjaar>
                 <Brandstof>
-                    <Benzine />
+                    <Benzine/>
                 </Brandstof>
                 <Prijs valuta="euro">10000</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -195,7 +195,7 @@
                 <Type>Stationwagen</Type>
                 <Bouwjaar format="yyyy">1995</Bouwjaar>
                 <Brandstof>
-                    <Diesel />
+                    <Diesel/>
                 </Brandstof>
                 <Prijs valuta="euro">700</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -305,7 +305,7 @@
                 <Type>Supercar</Type>
                 <Bouwjaar format="yyyy">2018</Bouwjaar>
                 <Brandstof>
-                    <Diesel />
+                    <Diesel/>
                 </Brandstof>
                 <Prijs valuta="euro">50000</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -413,7 +413,7 @@
                 <Type>Sedan</Type>
                 <Bouwjaar format="yyyy">2001</Bouwjaar>
                 <Brandstof>
-                    <Gas />
+                    <Gas/>
                 </Brandstof>
                 <Prijs valuta="euro">550</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -511,9 +511,9 @@
             <Pompen>
                 <Pomp>
                     <Brandstoffen>
-                        <Benzine />
-                        <Gas />
-                        <Diesel />
+                        <Benzine/>
+                        <Gas/>
+                        <Diesel/>
                     </Brandstoffen>
                 </Pomp>
             </Pompen>
@@ -527,7 +527,7 @@
                 <Type>Hatchack</Type>
                 <Bouwjaar format="yyyy">2015</Bouwjaar>
                 <Brandstof>
-                    <Benzine />
+                    <Benzine/>
                 </Brandstof>
                 <Prijs valuta="euro">150000</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -627,7 +627,7 @@
             <Pompen>
                 <Pomp>
                     <Brandstoffen>
-                        <Gas />
+                        <Gas/>
                     </Brandstoffen>
                 </Pomp>
             </Pompen>
@@ -641,7 +641,7 @@
                 <Type>Coach</Type>
                 <Bouwjaar format="yyyy">2012</Bouwjaar>
                 <Brandstof>
-                    <Gas />
+                    <Gas/>
                 </Brandstof>
                 <Prijs valuta="euro">7500</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -758,7 +758,7 @@
                 <Type>Coupé</Type>
                 <Bouwjaar format="yyyy">2014</Bouwjaar>
                 <Brandstof>
-                    <Benzine />
+                    <Benzine/>
                 </Brandstof>
                 <Prijs valuta="euro">12000</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -779,7 +779,7 @@
                 <Type>SUV</Type>
                 <Bouwjaar format="yyyy">2000</Bouwjaar>
                 <Brandstof>
-                    <Diesel />
+                    <Diesel/>
                 </Brandstof>
                 <Prijs valuta="euro">50000</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -895,7 +895,7 @@
                 <Type>Hatchack</Type>
                 <Bouwjaar format="yyyy">2006</Bouwjaar>
                 <Brandstof>
-                    <Benzine />
+                    <Benzine/>
                 </Brandstof>
                 <Prijs valuta="euro">6500</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -1002,7 +1002,7 @@
                 <Type>Coach</Type>
                 <Bouwjaar format="yyyy">2002</Bouwjaar>
                 <Brandstof>
-                    <Diesel />
+                    <Diesel/>
                 </Brandstof>
                 <Prijs valuta="euro">9500</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -1112,7 +1112,7 @@
                 <Type>Sedan</Type>
                 <Bouwjaar format="yyyy">2001</Bouwjaar>
                 <Brandstof>
-                    <Diesel />
+                    <Diesel/>
                 </Brandstof>
                 <Prijs valuta="euro">9999</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -1220,7 +1220,7 @@
                 <Type>Hatchack</Type>
                 <Bouwjaar format="yyyy">1990</Bouwjaar>
                 <Brandstof>
-                    <Gas />
+                    <Gas/>
                 </Brandstof>
                 <Prijs valuta="euro">1999</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->
@@ -1336,7 +1336,7 @@
                 <Type>Stationwagen</Type>
                 <Bouwjaar format="yyyy">1997</Bouwjaar>
                 <Brandstof>
-                    <Gas />
+                    <Gas/>
                 </Brandstof>
                 <Prijs valuta="euro">2199</Prijs>
                 <!-- Dit is de datum waarop de APK afloopt. -->

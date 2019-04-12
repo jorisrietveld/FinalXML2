@@ -164,9 +164,10 @@ main {
     justify-content: space-evenly;
 }
 
-#dealer-sales > section:nth-child(even){
+#dealer-sales > section:nth-child(even) {
     background: lightgrey !important;
 }
+
 .dealer-content-employee {
     padding: 20px;
 }
@@ -195,7 +196,7 @@ main {
     padding-left: 40px;
 }
 
-.dealer-information
+.dealer-information,
 .dealer-information tr:nth-child(even), .dealer-information tr > th, .car-information tr:nth-child(even), .car-information tr > th {
     background-color: rgba(255, 255, 255, 0.5);
 }

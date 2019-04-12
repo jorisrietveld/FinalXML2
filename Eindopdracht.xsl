@@ -72,7 +72,7 @@
                         <tbody>
                             <!-- These will render the rows that contain all information about the car dealer. -->
                             <xsl:apply-templates
-                                    select="Telefoonnummer|Website|Email|Services|Automerken|Faciliteiten|Werkzaamheden|AangeslotenOrganizaties|Routebeschrijving"/>
+                                    select="Telefoonnummer|Website|Email|Services|Automerken|Faciliteiten|Werkzaamheden|AangeslotenOrganisaties|Routebeschrijving"/>
                         </tbody>
                     </table>
                 </div>
@@ -109,10 +109,10 @@
                         <xsl:apply-templates select="Adres"/>
                     </address>
                     <div class="certification-icons column">
-                        <xsl:if test="AangeslotenOrganizaties/Organizatie/@naam ='BOVAG'">
+                        <xsl:if test="AangeslotenOrganisaties/Organisatie/@naam ='BOVAG'">
                             <img src="images/bovag-garantie.png" alt="Aangesloten bij BOVAG" id="bovag-logo"/>
                         </xsl:if>
-                        <xsl:if test="AangeslotenOrganizaties/Organizatie/@naam ='RDW'">
+                        <xsl:if test="AangeslotenOrganisaties/Organisatie/@naam ='RDW'">
                             <img src="images/rdw-geregistreed.png" alt="Erkend door de RDW" id="rdw-logo"/>
                         </xsl:if>
                     </div>

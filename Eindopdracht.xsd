@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:simpleType name="PostcodeFormat">
-        <xs:restriction base = "xs:string">
-            <xs:pattern value = "[0-9]{4}\s*[a-zA-Z]{2}"/>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{4}\s*[a-zA-Z]{2}"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="ProvincieType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="Groningen" />
-            <xs:enumeration value="Friesland" />
-            <xs:enumeration value="Noord-Holland" />
-            <xs:enumeration value="Zuid-Holland" />
-            <xs:enumeration value="Drenthe" />
-            <xs:enumeration value="Overijssel" />
-            <xs:enumeration value="Flevoland" />
-            <xs:enumeration value="Gelderland" />
-            <xs:enumeration value="Utrecht" />
-            <xs:enumeration value="Noord-Brabant" />
-            <xs:enumeration value="Zeeland" />
-            <xs:enumeration value="Limburg" />
+            <xs:enumeration value="Groningen"/>
+            <xs:enumeration value="Friesland"/>
+            <xs:enumeration value="Noord-Holland"/>
+            <xs:enumeration value="Zuid-Holland"/>
+            <xs:enumeration value="Drenthe"/>
+            <xs:enumeration value="Overijssel"/>
+            <xs:enumeration value="Flevoland"/>
+            <xs:enumeration value="Gelderland"/>
+            <xs:enumeration value="Utrecht"/>
+            <xs:enumeration value="Noord-Brabant"/>
+            <xs:enumeration value="Zeeland"/>
+            <xs:enumeration value="Limburg"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:complexType name="AdresType">
         <xs:sequence>
-            <xs:element name="Straat" type="xs:string" />
-            <xs:element name="Huisnummer" type="xs:string" />
-            <xs:element name="Postcode" type="PostcodeFormat" />
-            <xs:element name="Plaats" type="xs:string" />
-            <xs:element name="Provincie" type="ProvincieType" />
+            <xs:element name="Straat" type="xs:string"/>
+            <xs:element name="Huisnummer" type="xs:string"/>
+            <xs:element name="Postcode" type="PostcodeFormat"/>
+            <xs:element name="Plaats" type="xs:string"/>
+            <xs:element name="Provincie" type="ProvincieType"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -54,14 +54,14 @@
 
     <xs:complexType name="FotosType">
         <xs:sequence>
-            <xs:element name="Foto" maxOccurs="unbounded" type="FotoType" />
+            <xs:element name="Foto" maxOccurs="unbounded" type="FotoType"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:simpleType name="WebsiteFormat">
         <xs:restriction base="xs:anyURI">
-            <xs:pattern value="http://.+" />
-            <xs:pattern value="https://.+" />
+            <xs:pattern value="http://.+"/>
+            <xs:pattern value="https://.+"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -73,8 +73,8 @@
 
     <xs:simpleType name="OrganisatieNaamType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="BOVAG" />
-            <xs:enumeration value="RDW" />
+            <xs:enumeration value="BOVAG"/>
+            <xs:enumeration value="RDW"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -88,7 +88,7 @@
 
     <xs:complexType name="AangeslotenOrganisatiesType">
         <xs:sequence>
-            <xs:element name="Organisatie" maxOccurs="2" type="OrganisatieType" />
+            <xs:element name="Organisatie" maxOccurs="2" type="OrganisatieType"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -101,15 +101,15 @@
 
     <xs:complexType name="OpeningstijdenType">
         <xs:sequence>
-            <xs:element name="Maandag" type="OpeningstijdTijdType" />
-            <xs:element name="Dinsdag" type="OpeningstijdTijdType" />
-            <xs:element name="Woensdag" type="OpeningstijdTijdType" />
+            <xs:element name="Maandag" type="OpeningstijdTijdType"/>
+            <xs:element name="Dinsdag" type="OpeningstijdTijdType"/>
+            <xs:element name="Woensdag" type="OpeningstijdTijdType"/>
             <xs:element name="Donderdag" type="OpeningstijdTijdType"/>
             <xs:element name="Vrijdag" type="OpeningstijdTijdType"/>
             <xs:element name="Zaterdag" type="OpeningstijdTijdType"/>
             <xs:element name="Zondag" type="OpeningstijdTijdType"/>
         </xs:sequence>
-        <xs:attribute name="format" type="xs:string" use="required" />
+        <xs:attribute name="format" type="xs:string" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="ServicesType">
@@ -120,8 +120,8 @@
 
     <xs:simpleType name="ServiceType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="Lenen" />
-            <xs:enumeration value="Huren" />
+            <xs:enumeration value="Lenen"/>
+            <xs:enumeration value="Huren"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -168,18 +168,18 @@
 
     <xs:simpleType name="AutoTypeType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="Sedan" />
-            <xs:enumeration value="Cabrio" />
-            <xs:enumeration value="SUV" />
-            <xs:enumeration value="Coupé" />
-            <xs:enumeration value="Supercar" />
-            <xs:enumeration value="Coach" />
-            <xs:enumeration value="MPV" />
-            <xs:enumeration value="Crossover" />
-            <xs:enumeration value="Bestelwagen" />
-            <xs:enumeration value="Microcar" />
-            <xs:enumeration value="Stationwagen" />
-            <xs:enumeration value="Hatchack" />
+            <xs:enumeration value="Sedan"/>
+            <xs:enumeration value="Cabrio"/>
+            <xs:enumeration value="SUV"/>
+            <xs:enumeration value="Coupé"/>
+            <xs:enumeration value="Supercar"/>
+            <xs:enumeration value="Coach"/>
+            <xs:enumeration value="MPV"/>
+            <xs:enumeration value="Crossover"/>
+            <xs:enumeration value="Bestelwagen"/>
+            <xs:enumeration value="Microcar"/>
+            <xs:enumeration value="Stationwagen"/>
+            <xs:enumeration value="Hatchack"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -199,8 +199,8 @@
 
     <xs:simpleType name="valutaType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="euro" />
-            <xs:enumeration value="dollar" />
+            <xs:enumeration value="euro"/>
+            <xs:enumeration value="dollar"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -242,8 +242,8 @@
         <xs:sequence>
             <xs:element name="Kenteken" type="KentekenType"/>
             <xs:element name="Automerk" type="xs:string"/>
-            <xs:element name="Type" type="AutoTypeType" />
-            <xs:element name="Bouwjaar" type="BouwjaarType" />
+            <xs:element name="Type" type="AutoTypeType"/>
+            <xs:element name="Bouwjaar" type="BouwjaarType"/>
             <xs:element name="Brandstof" type="BrandstoffenType"/>
             <xs:element name="Prijs" type="PrijsType"/>
             <xs:element name="DatumAPK" type="APKType"/>
@@ -290,17 +290,17 @@
 
     <xs:complexType name="GarageType">
         <xs:sequence>
-            <xs:element name="Naam" type="xs:string" />
-            <xs:element name="Adres" type="AdresType" />
-            <xs:element name="Telefoonnummer" type="TelefoonnummerFormat" />
-            <xs:element name="Email" type="EmailFormat" />
-            <xs:element name="Fotos" type="FotosType" />
-            <xs:element name="Omschrijving" type="xs:string" />
-            <xs:element name="Website" type="WebsiteFormat" />
-            <xs:element name="Routebeschrijving" type="RoutebeschrijvingFormat" />
-            <xs:element name="AangeslotenOrganisaties" type="AangeslotenOrganisatiesType" />
-            <xs:element name="VkOpeningstijden" type="OpeningstijdenType" />
-            <xs:element name="WPOpeningstijden" type="OpeningstijdenType" />
+            <xs:element name="Naam" type="xs:string"/>
+            <xs:element name="Adres" type="AdresType"/>
+            <xs:element name="Telefoonnummer" type="TelefoonnummerFormat"/>
+            <xs:element name="Email" type="EmailFormat"/>
+            <xs:element name="Fotos" type="FotosType"/>
+            <xs:element name="Omschrijving" type="xs:string"/>
+            <xs:element name="Website" type="WebsiteFormat"/>
+            <xs:element name="Routebeschrijving" type="RoutebeschrijvingFormat"/>
+            <xs:element name="AangeslotenOrganisaties" type="AangeslotenOrganisatiesType"/>
+            <xs:element name="VkOpeningstijden" type="OpeningstijdenType"/>
+            <xs:element name="WPOpeningstijden" type="OpeningstijdenType"/>
             <xs:element name="Services" type="ServicesType"/>
             <xs:element name="Automerken" type="AutomerkenType"/>
             <xs:element name="Faciliteiten" type="FaciliteitenType"/>
@@ -313,7 +313,7 @@
     <xs:element name="Garages">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Garage" maxOccurs="unbounded" type="GarageType" />
+                <xs:element name="Garage" maxOccurs="unbounded" type="GarageType"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

@@ -21,8 +21,7 @@ This repository contains the final assignment of the module XML given at NHLSten
    - [Eindopdracht (xml)](Eindopdracht.xml)
 - **XML Transform met XSL-T**
    - [Eindopdracht (xsl))](Eindopdracht.xsl)
-   - [Eindopdracht Transform (html ouput))](Eindopdracht.html)
-   - [Eindopdracht Transform (html ouput in mardown))](Eindopdracht.md)
+   - [Eindopdracht Transform (html ouput)](Eindopdracht.html)
 
 ## Authors
  - [David Dorenbos](https://github.com/DavidDorenbos)

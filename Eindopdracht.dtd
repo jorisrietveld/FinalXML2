@@ -11,12 +11,12 @@
         <!ELEMENT Naam (#PCDATA)>
         <!ELEMENT Adres (Straat, Huisnummer , Postcode , Plaats , Provincie)>
         <!ELEMENT Telefoonnummer (#PCDATA)>
-        <!ELEMENT Email                (#PCDATA)>
+        <!ELEMENT Email (#PCDATA)>
         <!ELEMENT Fotos (Foto*)>
-        <!ELEMENT Foto                 (#PCDATA)>
-        <!ELEMENT Omschrijving         (#PCDATA)>
-        <!ELEMENT Website              (#PCDATA)>
-        <!ELEMENT Routebeschrijving    (#PCDATA)>
+        <!ELEMENT Foto (#PCDATA)>
+        <!ELEMENT Omschrijving (#PCDATA)>
+        <!ELEMENT Website (#PCDATA)>
+        <!ELEMENT Routebeschrijving (#PCDATA)>
         <!ELEMENT AangeslotenOrganizaties (Organizatie+)>
         <!ELEMENT Organizatie (#PCDATA)>
         <!ATTLIST Organizatie naam CDATA #REQUIRED>
@@ -33,30 +33,30 @@
         <!ATTLIST WPOpeningstijden format CDATA #REQUIRED>
         <!ELEMENT VkOpeningstijden %dagen;>
         <!ATTLIST VkOpeningstijden format CDATA #REQUIRED>
-        <!ELEMENT Maandag   (#PCDATA)>
-        <!ELEMENT Dinsdag   (#PCDATA)>
-        <!ELEMENT Woensdag  (#PCDATA)>
+        <!ELEMENT Maandag (#PCDATA)>
+        <!ELEMENT Dinsdag (#PCDATA)>
+        <!ELEMENT Woensdag (#PCDATA)>
         <!ELEMENT Donderdag (#PCDATA)>
-        <!ELEMENT Vrijdag   (#PCDATA)>
-        <!ELEMENT Zaterdag  (#PCDATA)>
-        <!ELEMENT Zondag    (#PCDATA)>
+        <!ELEMENT Vrijdag (#PCDATA)>
+        <!ELEMENT Zaterdag (#PCDATA)>
+        <!ELEMENT Zondag (#PCDATA)>
 
         <!-- Dit valideert de de beschibaare auto merken. -->
         <!ELEMENT Automerken (Automerk+)>
-        <!ELEMENT Automerk  (#PCDATA)>
+        <!ELEMENT Automerk (#PCDATA)>
 
         <!-- Dit valideert de medewerkers. -->
-        <!ELEMENT   Medewerkers (Medewerker+)>
-        <!ELEMENT   Medewerker  (Naam, Foto , Functie)>
-        <!ELEMENT   Functie     (#PCDATA)>
+        <!ELEMENT Medewerkers (Medewerker+)>
+        <!ELEMENT Medewerker (Naam, Foto , Functie)>
+        <!ELEMENT Functie (#PCDATA)>
 
         <!-- Dit valideerd de werkzaamheden. -->
-        <!ELEMENT   Werkzaamheden   (Werkzaamheid+)>
-        <!ELEMENT   Werkzaamheid (#PCDATA)>
+        <!ELEMENT Werkzaamheden (Werkzaamheid+)>
+        <!ELEMENT Werkzaamheid (#PCDATA)>
 
         <!-- Dit valideerd de Services -->
-        <!ELEMENT   Services (Service+)>
-        <!ELEMENT   Service (#PCDATA)>
+        <!ELEMENT Services (Service+)>
+        <!ELEMENT Service (#PCDATA)>
 
         <!-- Dit valideerd de gegevens van auto's  -->
         <!ELEMENT Autos (Auto+)>
@@ -72,11 +72,11 @@
         <!ELEMENT Gas (#PCDATA)>
         <!ELEMENT Diesel (#PCDATA)>
 
-        <!ELEMENT Prijs         (#PCDATA)>
+        <!ELEMENT Prijs (#PCDATA)>
         <!ATTLIST Prijs valuta %valuta; #REQUIRED>
 
         <!-- Dit vaideerd the datam tot waar de APK gedig is. -->
-        <!ELEMENT DatumAPK      (Jaar, Maand, Dag)>
+        <!ELEMENT DatumAPK (Jaar, Maand, Dag)>
         <!ELEMENT Jaar (#PCDATA)>
         <!ELEMENT Maand (#PCDATA)>
         <!ELEMENT Dag (#PCDATA)>
