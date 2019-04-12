@@ -29,7 +29,7 @@ This repository contains the final assignment of the module XML given at NHLSten
  - [Michiel Tombergen](https://github.com/MichielTombergen)
  - [Andrej Rodzevic](https://github.com/andrew946)
  - [Thomas Fluit]()
- - [Joris Rietveld\(https://github.com/jorisrietveld)
+ - [Joris Rietveld](https://github.com/jorisrietveld)
 
 
 ## Licencing
