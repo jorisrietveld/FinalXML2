@@ -12,7 +12,7 @@ This repository contains the final assignment of the module XML given at NHLSten
 
 ## Products
  - **Omschrijving DTD**
-   - [omschrijving dtd (docx))](Omschrijving_DTD.docx)
+   - [omschrijving dtd (docx)](Omschrijving_DTD.docx)
    - [Omschrijving DTD (pdf)](Omschrijving_DTD.pdf)
  - **XML Schema's**
    - [Eindopdracht (dtd)](Eindopdracht.dtd)
