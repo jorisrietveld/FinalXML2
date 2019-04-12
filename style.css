@@ -158,13 +158,13 @@ main {
     display: block;
 }
 
-#car-picture-cards {
+.car-picture-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-#dealer-sales > section:nth-child(even) {
+.dealer-sales > section:nth-child(even) {
     background: lightgrey !important;
 }
 
@@ -172,7 +172,7 @@ main {
     padding: 20px;
 }
 
-#employee-cards {
+.employee-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -228,12 +228,12 @@ main {
 
 }
 
-#rdw-logo {
+.rdw-logo {
     height: 80px;
     padding-top: 15px;
 }
 
-#bovag-logo {
+.bovag-logo {
     height: 100px;
 }
 

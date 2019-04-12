@@ -110,10 +110,10 @@
                     </address>
                     <div class="certification-icons column">
                         <xsl:if test="AangeslotenOrganisaties/Organisatie/@naam ='BOVAG'">
-                            <img src="images/bovag-garantie.png" alt="Aangesloten bij BOVAG" id="bovag-logo"/>
+                            <img src="images/bovag-garantie.png" alt="Aangesloten bij BOVAG" class="bovag-logo"/>
                         </xsl:if>
                         <xsl:if test="AangeslotenOrganisaties/Organisatie/@naam ='RDW'">
-                            <img src="images/rdw-geregistreed.png" alt="Erkend door de RDW" id="rdw-logo"/>
+                            <img src="images/rdw-geregistreed.png" alt="Erkend door de RDW" class="rdw-logo"/>
                         </xsl:if>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
         <section class="dealer-content-sales">
             <h2 class="align-center">Aangeboden auto's:</h2>
             <hr/>
-            <div id="dealer-sales">
+            <div class="dealer-sales">
                 <xsl:apply-templates select="Auto"/>
             </div>
         </section>
@@ -355,7 +355,7 @@
     </xsl:template>
 
     <xsl:template match="Fotos">
-        <div id="car-picture-cards">
+        <div class="car-picture-cards">
             <xsl:apply-templates select="Foto"/>
         </div>
     </xsl:template>
@@ -373,7 +373,7 @@
         <section class="dealer-content-employee">
             <h2 class="align-center">Ons team:</h2>
             <hr/>
-            <div id="employee-cards">
+            <div class="employee-cards">
                 <xsl:apply-templates select="Medewerker"/>
             </div>
         </section>
@@ -397,7 +397,7 @@
         <xsl:variable name="fuel-list" select="/Garages/Garage/Autos/Auto/Brandstof/*"/>
 
         <table id="dev-statistics">
-            <caption>Statastieken</caption>
+            <caption>Statistieken</caption>
             <tbody>
                 <tr>
                     <td>Aantal garages:</td>

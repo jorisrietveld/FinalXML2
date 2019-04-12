@@ -260,10 +260,9 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="Onderhoud"/>
             <xs:enumeration value="APKKeuring"/>
-            <xs:enumeration value="BandenService"/>
             <xs:enumeration value="Ruitenreparatie"/>
             <xs:enumeration value="Aircoservice"/>
-            <xs:enumeration value="Bandeservice"/>
+            <xs:enumeration value="Bandenservice"/>
         </xs:restriction>
     </xs:simpleType>
 

@@ -95,7 +95,7 @@
         <Werkzaamheden>
             <Werkzaamheid>Onderhoud</Werkzaamheid>
             <Werkzaamheid>APKKeuring</Werkzaamheid>
-            <Werkzaamheid>BandenService</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
         </Werkzaamheden>
 
         <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
@@ -314,7 +314,7 @@
 
         <!-- Dit zijn de werkzaam heden die de garage aanbied -->
         <Werkzaamheden>
-            <Werkzaamheid>BandenService</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
         </Werkzaamheden>
 
         <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
@@ -649,7 +649,7 @@
         <!-- Dit zijn de werkzaam heden die de garage aanbied -->
         <Werkzaamheden>
             <Werkzaamheid>Onderhoud</Werkzaamheid>
-            <Werkzaamheid>BandenService</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
         </Werkzaamheden>
 
         <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
@@ -788,7 +788,7 @@
         <!-- Dit zijn de werkzaam heden die de garage aanbied -->
         <Werkzaamheden>
             <Werkzaamheid>Onderhoud</Werkzaamheid>
-            <Werkzaamheid>BandenService</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
         </Werkzaamheden>
 
         <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
