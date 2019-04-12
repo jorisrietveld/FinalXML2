@@ -1359,4 +1359,1444 @@
             </Medewerker>
         </Medewerkers>
     </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Angelslo's auto's</Naam>
+        <Adres>
+            <Straat>Hoofdstraat</Straat>
+            <Huisnummer>25</Huisnummer>
+            <Postcode>7821 AS</Postcode>
+            <Plaats>Emmen</Plaats>
+            <Provincie>Drenthe</Provincie>
+        </Adres>
+        <Telefoonnummer>+316 12345678</Telefoonnummer>
+        <Email>autos-angelslo@hotmail.com</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij verkopen nieuwe en tweedehands auto's</Omschrijving>
+        <Website>https://www.angelslo-autos.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vJ9j4VVUofS2</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:00</Maandag>
+            <Dinsdag>08:00 - 17:00</Dinsdag>
+            <Woensdag>08:00 - 17:00</Woensdag>
+            <Donderdag>08:00 - 20:00</Donderdag>
+            <Vrijdag>08:00 - 17:00</Vrijdag>
+            <Zaterdag>08:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 17:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 18:00</Maandag>
+            <Dinsdag>08:00 - 18:00</Dinsdag>
+            <Woensdag>08:00 - 18:00</Woensdag>
+            <Donderdag>08:00 - 21:00</Donderdag>
+            <Vrijdag>08:00 - 18:00</Vrijdag>
+            <Zaterdag>08:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 17:00</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+            <Service>Lenen</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Ford</Automerk>
+            <Automerk>Kia</Automerk>
+            <Automerk>Mercedes</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+            <Pompen>
+                <Pomp>
+                    <Brandstoffen>
+                        <Benzine />
+                        <Gas />
+                        <Diesel />
+                    </Brandstoffen>
+                </Pomp>
+            </Pompen>
+            <Wasbox/>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>98-RR-XX</Kenteken>
+                <Automerk>Mazda</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">2005</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">10000</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Jos Harmsen</Naam>
+                <Foto>jos.jpg</Foto>
+                <Functie>Pompbediende</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Gerard Provrex</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Ibrahim's</Naam>
+        <Adres>
+            <Straat>Straat</Straat>
+            <Huisnummer>10</Huisnummer>
+            <Postcode>5425 SS</Postcode>
+            <Plaats>Coevorden</Plaats>
+            <Provincie>Limburg</Provincie>
+        </Adres>
+        <Telefoonnummer>+316 12345678</Telefoonnummer>
+        <Email>Ibrahim1972@gmail.com</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij verkopen tweedehands auto's</Omschrijving>
+        <Website>https://www.ibrahims1972.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vJ9j4VVUofS2</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:00</Maandag>
+            <Dinsdag>08:00 - 17:00</Dinsdag>
+            <Woensdag>08:00 - 17:00</Woensdag>
+            <Donderdag>12:00 - 17:00</Donderdag>
+            <Vrijdag>08:00 - 17:00</Vrijdag>
+            <Zaterdag>Gesloten</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:00</Maandag>
+            <Dinsdag>08:00 - 17:00</Dinsdag>
+            <Woensdag>08:00 - 17:00</Woensdag>
+            <Donderdag>12:00 - 17:00</Donderdag>
+            <Vrijdag>08:00 - 17:00</Vrijdag>
+            <Zaterdag>Gesloten</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Golf</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>98-TT-HH</Kenteken>
+                <Automerk>Golf</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">1999</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>12</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                </Fotos>
+            </Auto>
+
+            <Auto>
+                <Kenteken>10-RR-XX</Kenteken>
+                <Automerk>Golf GTI</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">2001</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">499</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2017</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Ibrahim Zwutsi</Naam>
+                <Foto>ibrahim.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Caspels Stoffels</Naam>
+        <Adres>
+            <Straat>Laatstestraat</Straat>
+            <Huisnummer>666</Huisnummer>
+            <Postcode>1337 EG</Postcode>
+            <Plaats>Winschoten</Plaats>
+            <Provincie>Groningen</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0591-123456</Telefoonnummer>
+        <Email>stoffels@hotmail.com</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij verkopen nieuwe en tweedehands auto's</Omschrijving>
+        <Website>https://www.stoffels.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vJ9j4VVUofS2</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:00</Maandag>
+            <Dinsdag>08:00 - 17:00</Dinsdag>
+            <Woensdag>08:00 - 17:00</Woensdag>
+            <Donderdag>08:00 - 20:00</Donderdag>
+            <Vrijdag>08:00 - 17:00</Vrijdag>
+            <Zaterdag>Gesloten</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 18:00</Maandag>
+            <Dinsdag>08:00 - 18:00</Dinsdag>
+            <Woensdag>08:00 - 18:00</Woensdag>
+            <Donderdag>08:00 - 21:00</Donderdag>
+            <Vrijdag>08:00 - 18:00</Vrijdag>
+            <Zaterdag>Gesloten</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+            <Service>Lenen</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Ford</Automerk>
+            <Automerk>Kia</Automerk>
+            <Automerk>Mercedes</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>12-XG-NH</Kenteken>
+                <Automerk>Kia</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">2007</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">4299</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>07</Maand>
+                    <Dag>18</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Caspels Stoffels</Naam>
+                <Foto>Caspels.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Hans Timmermans</Naam>
+                <Foto>hans.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Das ish Cool</Naam>
+        <Adres>
+            <Straat>Eenweg</Straat>
+            <Huisnummer>1337</Huisnummer>
+            <Postcode>4351 DC</Postcode>
+            <Plaats>Eindhoven</Plaats>
+            <Provincie>Noord-Brabant</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0563-158312</Telefoonnummer>
+        <Email>Support@dasishcool.nl</Email>
+        <Fotos>
+            <Foto>dasishcool.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij hebben ze super auto's ja!</Omschrijving>
+        <Website>https://www.das-ish-cool.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/AvDLmPpt3jrd</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>09:00 - 17:00</Maandag>
+            <Dinsdag>09:00 - 17:00</Dinsdag>
+            <Woensdag>09:00 - 17:00</Woensdag>
+            <Donderdag>09:00 - 20:00</Donderdag>
+            <Vrijdag>09:00 - 17:00</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>09:00 - 18:00</Maandag>
+            <Dinsdag>09:00 - 18:00</Dinsdag>
+            <Woensdag>09:00 - 18:00</Woensdag>
+            <Donderdag>09:00 - 21:00</Donderdag>
+            <Vrijdag>09:00 - 18:00</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Volvo</Automerk>
+            <Automerk>Audi</Automerk>
+            <Automerk>Seat</Automerk>
+            <Automerk>BMW</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>66-SS-99</Kenteken>
+                <Automerk>BMW</Automerk>
+                <Type>Sedan</Type>
+                <Bouwjaar format="yyyy">2018</Bouwjaar>
+                <Brandstof>
+                    <Gas />
+                </Brandstof>
+                <Prijs valuta="euro">11999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2016</Jaar>
+                    <Maand>12</Maand>
+                    <Dag>24</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Seat.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Frans Ubermacht</Naam>
+                <Foto>Frans.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Hans Waishaud</Naam>
+                <Foto>Hans.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Een Generike garage</Naam>
+        <Adres>
+            <Straat>Eeestraat</Straat>
+            <Huisnummer>33</Huisnummer>
+            <Postcode>2731 GS</Postcode>
+            <Plaats>Vinkhuizen</Plaats>
+            <Provincie>Zuid-Holland</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0543-312346</Telefoonnummer>
+        <Email>een@generike.nl</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+            <Foto>img.jpg</Foto>
+        </Fotos>
+        <Omschrijving>We staan voor u klaar en staan garant voor hoge kwaliteit</Omschrijving>
+        <Website>https://een-generike.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/benthEBVYC23</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:30</Maandag>
+            <Dinsdag>08:00 - 17:30</Dinsdag>
+            <Woensdag>08:00 - 17:30</Woensdag>
+            <Donderdag>08:00 - 17:30</Donderdag>
+            <Vrijdag>08:00 - 17:30</Vrijdag>
+            <Zaterdag>10:00 - 17:00</Zaterdag>
+            <Zondag>10:00 - 16:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:15 - 17:15</Maandag>
+            <Dinsdag>08:15 - 17:15</Dinsdag>
+            <Woensdag>08:15 - 17:15</Woensdag>
+            <Donderdag>08:15 - 17:15</Donderdag>
+            <Vrijdag>08:15 - 17:15</Vrijdag>
+            <Zaterdag>09:00 - 18:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Lenen</Service>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Volvo</Automerk>
+            <Automerk>VW</Automerk>
+            <Automerk>Ford</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+            <Pompen>
+                <Pomp>
+                    <Brandstoffen>
+                        <Benzine/>
+                        <Diesel/>
+                    </Brandstoffen>
+                </Pomp>
+            </Pompen>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>11-LL-56</Kenteken>
+                <Automerk>Volvo</Automerk>
+                <Type>Stationwagen</Type>
+                <Bouwjaar format="yyyy">2006</Bouwjaar>
+                <Brandstof>
+                    <Gas />
+                </Brandstof>
+                <Prijs valuta="euro">3199</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>05</Maand>
+                    <Dag>18</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>volvo06.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Ruitenreparatie</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Ruben Bergman</Naam>
+                <Foto>Johan.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Kelly Heller</Naam>
+                <Foto>miom.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Wij kopen auto's</Naam>
+        <Adres>
+            <Straat>Autostraat</Straat>
+            <Huisnummer>1</Huisnummer>
+            <Postcode>3546 AD</Postcode>
+            <Plaats>Utrecht</Plaats>
+            <Provincie>Utrecht</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0547-746400</Telefoonnummer>
+        <Email>wijkopen@autos.nl</Email>
+        <Fotos>
+            <Foto>logo_wka.jpg</Foto>
+            <Foto>img_wka.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij kopen en verkopen autos</Omschrijving>
+        <Website>https://wijkopenautos.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/dronrEBVYC59</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 18:00</Maandag>
+            <Dinsdag>08:00 - 18:00</Dinsdag>
+            <Woensdag>08:00 - 18:00</Woensdag>
+            <Donderdag>08:00 - 18:00</Donderdag>
+            <Vrijdag>08:00 - 18:00</Vrijdag>
+            <Zaterdag>08:00 - 18:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 18:00</Maandag>
+            <Dinsdag>08:30 - 18:00</Dinsdag>
+            <Woensdag>08:30 - 18:00</Woensdag>
+            <Donderdag>08:30 - 18:00</Donderdag>
+            <Vrijdag>08:30 - 18:00</Vrijdag>
+            <Zaterdag>09:00 - 18:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Lenen</Service>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Toyota</Automerk>
+            <Automerk>Renault</Automerk>
+            <Automerk>Suzuki</Automerk>
+            <Automerk>Citroën</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>74-GG-12</Kenteken>
+                <Automerk>Toyota</Automerk>
+                <Type>Sedan</Type>
+                <Bouwjaar format="yyyy">2006</Bouwjaar>
+                <Brandstof>
+                    <Diesel />
+                </Brandstof>
+                <Prijs valuta="euro">6999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2020</Jaar>
+                    <Maand>09</Maand>
+                    <Dag>26</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>toyota_aygo.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Irri Tant</Naam>
+                <Foto>foto.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Stomme Reclame</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>verkoper</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Helemaal mooi</Naam>
+        <Adres>
+            <Straat>Yeetweg</Straat>
+            <Huisnummer>246</Huisnummer>
+            <Postcode>3763 YS</Postcode>
+            <Plaats>Almelo</Plaats>
+            <Provincie>Overijssel</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0546-636969</Telefoonnummer>
+        <Email>Helemaal@mooi.com</Email>
+        <Fotos>
+            <Foto>logo_colour.jpg</Foto>
+        </Fotos>
+        <Omschrijving>De garage voor die helemaal mooie autos</Omschrijving>
+        <Website>https://helemaalmooi.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vioNoEBVYC60</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 17:30</Maandag>
+            <Dinsdag>08:30 - 17:30</Dinsdag>
+            <Woensdag>08:30 - 17:30</Woensdag>
+            <Donderdag>08:30 - 17:30</Donderdag>
+            <Vrijdag>08:30 - 17:30</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 18:00</Maandag>
+            <Dinsdag>08:30 - 18:00</Dinsdag>
+            <Woensdag>08:30 - 18:00</Woensdag>
+            <Donderdag>08:30 - 18:00</Donderdag>
+            <Vrijdag>08:30 - 18:00</Vrijdag>
+            <Zaterdag>09:00 - 18:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Lenen</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Ford</Automerk>
+            <Automerk>Mercedes</Automerk>
+            <Automerk>VW</Automerk>
+            <Automerk>Daf</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>75-XX-43</Kenteken>
+                <Automerk>VW</Automerk>
+                <Type>Coach</Type>
+                <Bouwjaar format="yyyy">1986</Bouwjaar>
+                <Brandstof>
+                    <Diesel />
+                </Brandstof>
+                <Prijs valuta="euro">10499</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2016</Jaar>
+                    <Maand>12</Maand>
+                    <Dag>12</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>zw_polo.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Aircoservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Danny de vries</Naam>
+                <Foto>photo.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Kevin Rosenstein</Naam>
+                <Foto>selfie.jpg</Foto>
+                <Functie>verkoper</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Vakgarage Doofenshmirtz</Naam>
+        <Adres>
+            <Straat>Heerstraat Zuid</Straat>
+            <Huisnummer>56</Huisnummer>
+            <Postcode>9960 ZA</Postcode>
+            <Plaats>Beegden</Plaats>
+            <Provincie>Limburg</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0415-563413</Telefoonnummer>
+        <Email>vakgarage-Doofenshmirtz@hyves.nl</Email>
+        <Fotos>
+            <Foto>12.jpg</Foto>
+        </Fotos>
+        <Omschrijving>De beste vakgarage in de wereld</Omschrijving>
+        <Website>https://www.vakgarageDoofenshmirtz.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vivNoEBVYC52</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 17:30</Maandag>
+            <Dinsdag>08:30 - 17:30</Dinsdag>
+            <Woensdag>08:30 - 17:30</Woensdag>
+            <Donderdag>08:30 - 17:30</Donderdag>
+            <Vrijdag>08:30 - 17:30</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 16:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 17:30</Maandag>
+            <Dinsdag>08:30 - 17:30</Dinsdag>
+            <Woensdag>08:30 - 17:30</Woensdag>
+            <Donderdag>08:30 - 17:30</Donderdag>
+            <Vrijdag>08:30 - 17:30</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Hyundai</Automerk>
+            <Automerk>Skoda</Automerk>
+            <Automerk>BMW</Automerk>
+            <Automerk>VW</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>63-UN-11</Kenteken>
+                <Automerk>VW</Automerk>
+                <Type>Cabrio</Type>
+                <Bouwjaar format="yyyy">2016</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">6500</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>04</Maand>
+                    <Dag>12</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Cabrio.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Dr.Heinz Doofenshmirtz</Naam>
+                <Foto>Doofenshmirtz.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Phineas Doofenshmirtz</Naam>
+                <Foto>PG.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Ferb Doofenshmirtz</Naam>
+                <Foto>PG.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Worlds Car</Naam>
+        <Adres>
+            <Straat>Amsterdamsstraat</Straat>
+            <Huisnummer>25</Huisnummer>
+            <Postcode>1005 AM</Postcode>
+            <Plaats>Amsterdam</Plaats>
+            <Provincie>Noord-Holland</Provincie>
+        </Adres>
+        <Telefoonnummer>+316 87531541</Telefoonnummer>
+        <Email>Worlds@car.com</Email>
+        <Fotos>
+            <Foto>logo.jpg</Foto>
+        </Fotos>
+        <Omschrijving>We are the biggest, the best car repair and selling shop</Omschrijving>
+        <Website>https://www.Worldscar.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vJ9j4VVUofS2</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 22:00</Maandag>
+            <Dinsdag>08:00 - 22:00</Dinsdag>
+            <Woensdag>08:00 - 22:00</Woensdag>
+            <Donderdag>08:00 - 22:00</Donderdag>
+            <Vrijdag>08:00 - 22:00</Vrijdag>
+            <Zaterdag>08:00 - 22:00</Zaterdag>
+            <Zondag>08:00 - 22:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 22:00</Maandag>
+            <Dinsdag>08:00 - 22:00</Dinsdag>
+            <Woensdag>08:00 - 22:00</Woensdag>
+            <Donderdag>08:00 - 22:00</Donderdag>
+            <Vrijdag>08:00 - 22:00</Vrijdag>
+            <Zaterdag>08:00 - 22:00</Zaterdag>
+            <Zondag>08:00 - 22:00</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+            <Service>Lenen</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Ford</Automerk>
+            <Automerk>Kia</Automerk>
+            <Automerk>Mercedes</Automerk>
+            <Automerk>BMW</Automerk>
+            <Automerk>VW</Automerk>
+            <Automerk>Lada</Automerk>
+            <Automerk>Mitsubisy</Automerk>
+            <Automerk>Peugeot</Automerk>
+            <Automerk>Sedan</Automerk>
+            <Automerk>Suzuki</Automerk>
+            <Automerk>Mazda</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+            <Pompen>
+                <Pomp>
+                    <Brandstoffen>
+                        <Benzine />
+                        <Gas />
+                        <Diesel />
+                    </Brandstoffen>
+                </Pomp>
+            </Pompen>
+            <Wasbox/>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>46-GG-55</Kenteken>
+                <Automerk>VW</Automerk>
+                <Type>SUV</Type>
+                <Bouwjaar format="yyyy">2015</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">12999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2020</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+            <Auto>
+                <Kenteken>98-RR-76</Kenteken>
+                <Automerk>Mazda</Automerk>
+                <Type>Sedan</Type>
+                <Bouwjaar format="yyyy">2020</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">39999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2022</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+            <Auto>
+                <Kenteken>00-AA-00</Kenteken>
+                <Automerk>BMW</Automerk>
+                <Type>Supercar</Type>
+                <Bouwjaar format="yyyy">2018</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">139999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2022</Jaar>
+                    <Maand>01</Maand>
+                    <Dag>20</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Front.jpg</Foto>
+                    <Foto>Back.jpg</Foto>
+                    <Foto>Inside.jpg</Foto>
+                    <Foto>Motor.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Wesley Verlderman</Naam>
+                <Foto>Wesley.jpg</Foto>
+                <Functie>Eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Andrej Rodzevic</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>David Games</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Administratie</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Astrid Pietje</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Pompbediende</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Johanus Bamoes</Naam>
+                <Foto>me.jpg</Foto>
+                <Functie>Bier drinken</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Auto Reparatie Bergman</Naam>
+        <Adres>
+            <Straat>Meerstraat</Straat>
+            <Huisnummer>48</Huisnummer>
+            <Postcode>7815 XH</Postcode>
+            <Plaats>Emmen</Plaats>
+            <Provincie>Drenthe</Provincie>
+        </Adres>
+        <Telefoonnummer>+316 23643713</Telefoonnummer>
+        <Email>autoreparatiebergman@gmail.nl</Email>
+        <Fotos>
+            <Foto>12.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Repreratie bergman repareert all uw autos!</Omschrijving>
+        <Website>https://www.autoreparatiebergman.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/vivNoEBVYC52</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 17:30</Maandag>
+            <Dinsdag>08:30 - 17:30</Dinsdag>
+            <Woensdag>08:30 - 17:30</Woensdag>
+            <Donderdag>08:30 - 17:30</Donderdag>
+            <Vrijdag>08:30 - 17:30</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>12:00 - 16:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:30 - 17:30</Maandag>
+            <Dinsdag>08:30 - 17:30</Dinsdag>
+            <Woensdag>08:30 - 17:30</Woensdag>
+            <Donderdag>08:30 - 17:30</Donderdag>
+            <Vrijdag>08:30 - 17:30</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Lada</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>63-UN-11</Kenteken>
+                <Automerk>Lada</Automerk>
+                <Type>Crossover</Type>
+                <Bouwjaar format="yyyy">1960</Bouwjaar>
+                <Brandstof>
+                    <Benzine />
+                </Brandstof>
+                <Prijs valuta="euro">6500</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>04</Maand>
+                    <Dag>12</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Crossover.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+            <Werkzaamheid>Bandenservice</Werkzaamheid>
+            <Werkzaamheid>Ruitenreparatie</Werkzaamheid>
+            <Werkzaamheid>Aircoservice</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Kevin Bergman</Naam>
+                <Foto>kevin.jpg</Foto>
+                <Functie>Monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Autogarage</Naam>
+        <Adres>
+            <Straat>Warmeerweg</Straat>
+            <Huisnummer>45</Huisnummer>
+            <Postcode>6541 LA</Postcode>
+            <Plaats>Blijedorp</Plaats>
+            <Provincie>Zeeland</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0543-317446</Telefoonnummer>
+        <Email>Autogarage@gmail.com</Email>
+        <Fotos>
+            <Foto>img.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Wij zijn een autogarage</Omschrijving>
+        <Website>https://Autogarage.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/benthELVYC57</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="RDW"/>
+            <Organisatie naam="BOVAG"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:00 - 17:30</Maandag>
+            <Dinsdag>08:00 - 17:30</Dinsdag>
+            <Woensdag>08:00 - 17:30</Woensdag>
+            <Donderdag>08:00 - 17:30</Donderdag>
+            <Vrijdag>08:00 - 17:30</Vrijdag>
+            <Zaterdag>10:00 - 17:00</Zaterdag>
+            <Zondag>10:00 - 16:00</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>08:15 - 17:15</Maandag>
+            <Dinsdag>08:15 - 17:15</Dinsdag>
+            <Woensdag>08:15 - 17:15</Woensdag>
+            <Donderdag>08:15 - 17:15</Donderdag>
+            <Vrijdag>08:15 - 17:15</Vrijdag>
+            <Zaterdag>09:00 - 18:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Lenen</Service>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Volvo</Automerk>
+            <Automerk>VW</Automerk>
+            <Automerk>Ford</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+            <Pompen>
+                <Pomp>
+                    <Brandstoffen>
+                        <Benzine/>
+                        <Diesel/>
+                    </Brandstoffen>
+                </Pomp>
+            </Pompen>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>74-GA-11</Kenteken>
+                <Automerk>BMW</Automerk>
+                <Type>Hatchback</Type>
+                <Bouwjaar format="yyyy">2002</Bouwjaar>
+                <Brandstof>
+                    <Gas />
+                </Brandstof>
+                <Prijs valuta="euro">2699</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>12</Maand>
+                    <Dag>02</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>BMW.jpg</Foto>
+                </Fotos>
+            </Auto>
+            <Auto>
+                <Kenteken>74-PP-56</Kenteken>
+                <Automerk>Volvo</Automerk>
+                <Type>Hatchback</Type>
+                <Bouwjaar format="yyyy">2001</Bouwjaar>
+                <Brandstof>
+                    <Gas />
+                </Brandstof>
+                <Prijs valuta="euro">3199</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2019</Jaar>
+                    <Maand>05</Maand>
+                    <Dag>18</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>volvo.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Ruitenreparatie</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Vladimir Putin</Naam>
+                <Foto>Vladimir.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Ivan Ivanovich</Naam>
+                <Foto>ivan.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+    <Garage>
+        <!-- Dit zijn de gegevens van de garage -->
+        <Naam>Autobedrijf De Car-rage</Naam>
+        <Adres>
+            <Straat>Kapitein Nemostraat</Straat>
+            <Huisnummer>4</Huisnummer>
+            <Postcode>7821 AC</Postcode>
+            <Plaats>Emmen</Plaats>
+            <Provincie>Drenthe</Provincie>
+        </Adres>
+        <Telefoonnummer>+31 0591-635515</Telefoonnummer>
+        <Email>Support@autocar-rage.nl</Email>
+        <Fotos>
+            <Foto>autocarrage.jpg</Foto>
+        </Fotos>
+        <Omschrijving>Reperaties aan auto's</Omschrijving>
+        <Website>https://www.car-rage.nl</Website>
+        <Routebeschrijving>https://goo.gl/maps/AvDLmPpt3jrd</Routebeschrijving>
+
+        <!-- Dit zijn de organizaties waarbij de garage is aangesloten -->
+        <AangeslotenOrganisaties>
+            <Organisatie naam="BOVAG"/>
+            <Organisatie naam="RDW"/>
+        </AangeslotenOrganisaties>
+
+        <!-- De openingstijden van de verkoop -->
+        <VkOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>Gesloten</Maandag>
+            <Dinsdag>09:00 - 17:00</Dinsdag>
+            <Woensdag>09:00 - 17:00</Woensdag>
+            <Donderdag>09:00 - 20:00</Donderdag>
+            <Vrijdag>Gesloten</Vrijdag>
+            <Zaterdag>Gesloten</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </VkOpeningstijden>
+
+        <!-- De openings tijden van de werkplaats -->
+        <WPOpeningstijden format="HH:MM - HH:MM">
+            <Maandag>09:00 - 18:00</Maandag>
+            <Dinsdag>Gesloten</Dinsdag>
+            <Woensdag>Gesloten</Woensdag>
+            <Donderdag>Gesloten</Donderdag>
+            <Vrijdag>09:00 - 18:00</Vrijdag>
+            <Zaterdag>09:00 - 17:00</Zaterdag>
+            <Zondag>Gesloten</Zondag>
+        </WPOpeningstijden>
+
+        <!-- Dit zijn de sercies die de garage aanbied -->
+        <Services>
+            <Service>Huren</Service>
+        </Services>
+
+        <!-- Dit zijn de de merken waarvan de garage een officiele dealer is-->
+        <Automerken>
+            <Automerk>Volvo</Automerk>
+            <Automerk>Audi</Automerk>
+            <Automerk>Seat</Automerk>
+            <Automerk>BMW</Automerk>
+        </Automerken>
+
+        <!-- Dit zijn de facaliteiten die de garage aanbied -->
+        <Faciliteiten>
+        </Faciliteiten>
+
+        <!-- Dit zijn de auto's die de garage verkoopt -->
+        <Autos>
+            <Auto>
+                <Kenteken>99-FF-66</Kenteken>
+                <Automerk>Seat</Automerk>
+                <Type>Hatchback</Type>
+                <Bouwjaar format="yyyy">1999</Bouwjaar>
+                <Brandstof>
+                    <Gas />
+                </Brandstof>
+                <Prijs valuta="euro">11999</Prijs>
+                <!-- Dit is de datum waarop de APK afloopt. -->
+                <DatumAPK>
+                    <Jaar>2018</Jaar>
+                    <Maand>12</Maand>
+                    <Dag>24</Dag>
+                </DatumAPK>
+
+                <Fotos>
+                    <Foto>Seat.jpg</Foto>
+                </Fotos>
+            </Auto>
+        </Autos>
+
+        <!-- Dit zijn de werkzaam heden die de garage aanbied -->
+        <Werkzaamheden>
+            <Werkzaamheid>Onderhoud</Werkzaamheid>
+            <Werkzaamheid>APKKeuring</Werkzaamheid>
+        </Werkzaamheden>
+
+        <!-- Dit zijn de medewerkers die werkzaam zijn bij de garage. -->
+        <Medewerkers>
+            <Medewerker>
+                <Naam>Henk de Boer</Naam>
+                <Foto>Henk.jpg</Foto>
+                <Functie>eigenaar</Functie>
+            </Medewerker>
+            <Medewerker>
+                <Naam>Hans de Boer</Naam>
+                <Foto>Hans.jpg</Foto>
+                <Functie>monteur</Functie>
+            </Medewerker>
+        </Medewerkers>
+    </Garage>
+
 </Garages>
