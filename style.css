@@ -1,25 +1,78 @@
+/* Some values that define the 'Theme' of the website */
+:root {
+    --text-light: white;
+    --text-dark: black;
+    --background-light: white;
+    --background-dark: black;
+    --article-radius-1: 10px;
+    --article-radius-2: 150px;
+    --global-space: 0.75vw;
+    --sidebar-width: 15vw;
+    --main-content-width: 80vw;
+}
+
+/* Helper classes and general styles */
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+    background-position: center;
+    background-attachment: fixed;
+
 }
 
 body {
     font-family: "Hack", sans-serif;
+    margin: 0;
 }
 
+.align-center {
+    text-align: center;
+}
+
+/* Page layout */
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-25 {
+    float: left;
+    width: 25%;
+}
+
+.column-75 {
+    float: left;
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Styles for the sidebar */
 .sidenav {
     height: 100%;
-    width: 15vw;
+    width: var(--sidebar-width);
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding: var(--global-space);
 }
 
 .sidenav a {
-    padding: 6px 0 0 16px;
+    padding: 0 0 0 var(--global-space);
     text-decoration: none;
     font-size: 1em;
     color: #818181;
@@ -31,57 +84,177 @@ body {
     color: #f1f1f1;
 }
 
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* Main content skeleton styles */
+#page-header {
+    text-align: center;
+    color: white;
+    width: 85vw;
+    padding-top: 20vh;
+    font-size: 2.4em;
+}
+
+.business-hour-table {
+    width: 90%;
+}
+
 main {
-    margin-left: 15vw; /* Same as the width of the sidenav */
+    position: absolute;
+    left: var(--sidebar-width);
+    max-width: 80vw;
 }
 
-.page{
-    /*
-    min-height: 100vh;
-    */
-    border: #111111 2px groove;
-    color: gray;
+.page {
+    scroll-snap-align: start;
+    border-radius: calc(var(--article-radius-2) + 10px);
+    margin-top: 100vh;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    color: black;
+    background-color: white;
+    box-shadow: 0 3px 34px 19px rgba(0, 0, 0, 0.7);
 }
 
-.authors a{
+#footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+.authors a {
     display: block;
 }
 
-.dealer-header{
-    padding:20px;
+/* Dealer section styles */
+.dealer-header {
+    padding: 20px;
+    border-top-left-radius: var(--article-radius-1);
+    border-top-right-radius: var(--article-radius-2);
+    background-color: black;
     color: white;
-    background-color: #6c757d;
 }
 
-.dealer-footer{
-    color: white;
-    background-color: #6c757d;
+.dealer-content-sales {
+    padding: 20px;
 }
-.dealer-address span{
+
+.car-figures > figcaption > span {
     display: block;
 }
-.dealer-information{
-    border: 1px black;
-    float: right;
-}
-.column{
-    float: left;
-    width: 50%;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+#car-picture-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.dealer-information tr, td{
+#dealer-sales > section:nth-child(even){
+    background: lightgrey !important;
+}
+.dealer-content-employee {
+    padding: 20px;
+}
+
+#employee-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.employee-figures > figcaption > span {
+    display: block;
+}
+
+.dealer-information {
+    width: 95%;
+}
+
+.dealer-information tr, td {
     border: 0;
     padding: 0;
+    width: 50%;
 }
-.dealer-information tr:nth-child(even), .dealer-information tr >th, .car-information tr:nth-child(even), .car-information tr>th{
-    background-color: rgba(255,255,255,0.5);
+
+.dealer-information tr > td:nth-child(1) {
+    padding-left: 40px;
 }
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+
+.dealer-information
+.dealer-information tr:nth-child(even), .dealer-information tr > th, .car-information tr:nth-child(even), .car-information tr > th {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dealer-address span {
+    display: block;
+    color: white;
+}
+
+.dealer-footer {
+    border-bottom-left-radius: var(--article-radius-2);
+    border-bottom-right-radius: var(--article-radius-1);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* Dealer icons */
+.certification-icons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.certification-icons * {
+    padding: 5px;
+
+}
+
+#rdw-logo {
+    height: 80px;
+    padding-top: 15px;
+}
+
+#bovag-logo {
+    height: 100px;
+}
+
+#dev-statistics {
+    width: 80vw;
+    color: white;
+}
+
+#dev-statistics > tbody > tr > td:nth-child(even), #dev-statistics > thead > tr > th:nth-child(even) {
+    text-align: left;
+    width: 40%;
+    padding-left: 5px;
+}
+
+#dev-statistics > tbody > tr > td:nth-child(odd), #dev-statistics > thead > tr > th:nth-child(odd) {
+    text-align: right;
+    width: 40%;
+    padding-right: 5px;
+}
+
+#dev-statistics > caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
 }
