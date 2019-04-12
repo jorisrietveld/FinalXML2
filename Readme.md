@@ -1,3 +1,4 @@
+![XML_header.svg](XML_header.svg)
 # XML Eindopdracht
 This repository contains the final assignment of the module XML given at NHLStenden univercity of applied sciences. During this module we got an introduction in writing XML documents, DTD, XSD scheme and transforming XML with XSL and XSL-FO.
 
@@ -10,12 +11,18 @@ This repository contains the final assignment of the module XML given at NHLSten
     - [Licencing](#licencing)
 
 ## Products
- - [omschrijving dtd (docx))]()
- - [Omschrijving DTD (md)]()
- - [Eindopdracht (xml)]()
- - [Eindopdracht (dtd)]()
- - [Eindopdracht (xsl))]()
- - [Eindopdracht (html ouput))]()
+ - **Omschrijving DTD**
+   - [omschrijving dtd (docx))](Omschrijving_DTD.docx)
+   - [Omschrijving DTD (pdf)](Omschrijving_DTD.pdf)
+ - **XML Schema's**
+   - [Eindopdracht (dtd)](Eindopdracht.dtd)
+   - [Eindopdracht (xsd)](Eindopdracht.xsd)
+- **XML Data**
+   - [Eindopdracht (xml)](Eindopdracht.xml)
+- **XML Transform met XSL-T**
+   - [Eindopdracht (xsl))](Eindopdracht.xsl)
+   - [Eindopdracht Transform (html ouput))](Eindopdracht.html)
+   - [Eindopdracht Transform (html ouput in mardown))](Eindopdracht.md)
 
 ## Authors
  - [David Dorenbos](https://github.com/DavidDorenbos)
@@ -45,7 +52,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 <hr>
-This page (the documentation) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-[![Author Joris Rietveld](https://img.shields.io/badge/Author-Joris%20Rietveld-blue.svg)](https://github.com/jorisrietveld)
+[![Author INF2G & Joris Rietveld](https://img.shields.io/badge/Author-INF2G%20and%20Joris%20Rietveld-blue.svg)](https://github.com/jorisrietveld)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)

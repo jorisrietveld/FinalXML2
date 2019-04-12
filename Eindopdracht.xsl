@@ -31,7 +31,6 @@
                     <header id="page-header" class="">
                         <h1>Garage Overzicht NL</h1>
                         <xsl:call-template name="statistics"/>
-
                     </header>
 
                     <!-- Renderes a article for each stored car dealer. -->
